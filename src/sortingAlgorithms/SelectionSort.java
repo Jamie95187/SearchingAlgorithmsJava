@@ -1,13 +1,14 @@
 package sortingAlgorithms;
 
-public class SelectionSort {
-	void sort(int arr[]) {
+class SelectionSort {
+	
+	public void sort(int arr[]) {
 		// Move one element at a time through unsorted array
-		for (int i = 0; i <  arr.length - 1; i++) {
+		for (int i = 0; i <  arr.length; i++) {
 			
 			// Find the minimum element in the unsorted array
 			int min_index = i;
-			for (int j = i+1; j < arr.length - 1; j++) {
+			for (int j = i+1; j < arr.length; j++) {
 				if (arr[j] < arr[min_index]) {
 					min_index = j;
 				}
@@ -19,6 +20,7 @@ public class SelectionSort {
 			arr[i] = temp;
 		}
 	}
+
 }
 
 // Time Complexity: O(n^2) there are two nested loops
