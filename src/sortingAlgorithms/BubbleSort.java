@@ -28,7 +28,9 @@ public class BubbleSort {
 	}
 }
 
-// Time complexity: O(n^2)
+// Time complexity: 
+// Best case - O(n)
+// Worst case - O(n^2)
 
 // The above solution can be optimised by checking the number of swaps
 // in the inner loop

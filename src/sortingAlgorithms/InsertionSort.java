@@ -27,4 +27,6 @@ public class InsertionSort {
 	
 }
 
-// Time complexity: O(n^2) - single for loop
+// Time complexity: 
+// Best case - O(n)
+// Worst case - O(n^2)

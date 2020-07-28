@@ -23,4 +23,6 @@ class SelectionSort {
 
 }
 
-// Time Complexity: O(n^2) there are two nested loops
+// Time Complexity: there are two nested loops
+// Best case - O(n^2) 
+// Worst case - O(n^2)
