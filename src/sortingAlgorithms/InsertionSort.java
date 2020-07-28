@@ -7,7 +7,8 @@ public class InsertionSort {
 		int n = arr.length;
 		
 		// Compare arr[i] with all previous elements arr[0]..arr[i-1]
-		// and swap when the arr[i-x] is greater than arr[i]
+		// and when arr[x] is less than arr[i] swap arr[x+1] with arr[i]
+		// and move all arr[x+2]..arr[i-1] up by one index
 		
 		for (int i = 1; i < n; i++) {
 			int key = arr[i];
@@ -26,4 +27,4 @@ public class InsertionSort {
 	
 }
 
-// Time complexity: O(n^2) - double nested loop
+// Time complexity: O(n*2) - single for loop
