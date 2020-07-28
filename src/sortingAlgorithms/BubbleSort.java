@@ -2,13 +2,13 @@ package sortingAlgorithms;
 
 public class BubbleSort {
 	
-	public void bubbleSort(int arr[]) {
+	public void sort(int arr[]) {
 		int n = arr.length;
 		// Optimised bubble sort
 		// boolean swapped;
 		for (int i = 0; i < n-1; i++) {
 			for (int j = 0; j < n-i-1; j++) {
-				if (arr[j] < arr[j+1]) {
+				if (arr[j] > arr[j+1]) {
 					
 					// Swap arr[j+1] and arr[j]
 					int temp = arr[j];
