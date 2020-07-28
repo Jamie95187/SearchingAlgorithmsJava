@@ -39,6 +39,21 @@ class Main {
 		for(int i = 0; i < arr2.length; i++) {
 			System.out.print(arr2[i] + " , ");
 		}
+		
+		System.out.println("\n \n");
+		
+		// Testing insertion sort
+		
+		int arr3[] = createArray(50);
+		InsertionSort insertion_sort = new InsertionSort();
+		for(int i = 0; i < arr3.length; i++) {
+			System.out.print(arr3[i] + " , ");
+		}
+		insertion_sort.sort(arr3);
+		System.out.println("\n");
+		for(int i = 0; i < arr3.length; i++) {
+			System.out.print(arr3[i] + " , ");
+		}
 	}
 	
 }

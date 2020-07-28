@@ -9,14 +9,18 @@ public class InsertionSort {
 		// Compare arr[i] with all previous elements arr[0]..arr[i-1]
 		// and swap when the arr[i-x] is greater than arr[i]
 		
-		for (int i = 1; i < n - 1; i++) {
-			for (int j = i - 1; j >= 0; j--) {
-				if (arr[j] > arr[i]) {
-					int temp = arr[j];
-					arr[j] = arr[i];
-					arr[i] = temp;
-				}
+		for (int i = 1; i < n; i++) {
+			int key = arr[i];
+			int j = i - 1;
+			
+			// Move elements of arr[0..i-1], that are greater than
+			// key to one position ahead of their current position
+			
+			while (j >= 0 && arr[j] > key) {
+				arr[j + 1] = arr[j];
+				j = j - 1;
 			}
+			arr[j + 1] = key;
 		}
 	}
 	
