@@ -31,3 +31,5 @@ public class RecursiveInsertionSort {
 }
 
 // Time complexity - same as recursive sort
+//Best case - O(n)
+//Worst case - O(n^2)
