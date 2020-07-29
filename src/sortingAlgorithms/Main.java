@@ -69,6 +69,21 @@ class Main {
 		for(int i = 0; i < arr4.length; i++) {
 			System.out.print(arr4[i] + " , ");
 		}
+		
+		System.out.println("\n \n");
+		
+		// Testing merge sort
+		
+		int arr5[] = createArray(50);
+		MergeSort ms = new MergeSort();
+		for (int i = 0; i < arr5.length; i++) {
+			System.out.print(arr5[i] + ", ");
+		}
+		arr5 = ms.mergeSort(arr5);
+		System.out.println("\n");
+		for (int i = 0; i < arr5.length; i++) {
+			System.out.print(arr5[i] + ", ");
+		}
 	}
 	
 }
