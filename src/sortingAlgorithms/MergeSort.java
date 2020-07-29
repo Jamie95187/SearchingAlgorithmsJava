@@ -62,4 +62,8 @@ public class MergeSort {
 		
 		return c;
 	}
+	
 }
+
+// Time complexity:
+// worst case: O(nlogn)
