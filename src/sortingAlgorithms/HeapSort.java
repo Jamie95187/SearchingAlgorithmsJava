@@ -69,3 +69,9 @@ public class HeapSort {
 	}
 	
 }
+
+/*
+ * 
+ * Time Complexity: O(nLogn)
+ * 
+ */

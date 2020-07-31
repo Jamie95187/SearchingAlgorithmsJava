@@ -99,6 +99,21 @@ class Main {
 		for (int i = 0; i < arr6.length; i++) {
 			System.out.print(arr6[i] + ", ");
 		}
+		
+		System.out.println("\n \n");
+		
+		// Testing heap sort
+		
+		int arr7[] = createArray(50);
+		HeapSort hs = new HeapSort();
+		for (int i = 0; i < arr7.length; i++) {
+			System.out.print(arr7[i] + ", ");
+		}
+		hs.sort(arr7);
+		System.out.println("\n");
+		for (int i = 0; i < arr7.length; i++) {
+			System.out.print(arr7[i] + ", ");
+		}
 	}
 	
 }
