@@ -104,7 +104,7 @@ class Main {
 		
 		// Testing heap sort
 		
-		int arr7[] = createArray(50);
+		int arr7[] = {10, 15, 20, 40, 50, 25};
 		HeapSort hs = new HeapSort();
 		for (int i = 0; i < arr7.length; i++) {
 			System.out.print(arr7[i] + ", ");
