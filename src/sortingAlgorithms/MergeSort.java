@@ -2,7 +2,9 @@ package sortingAlgorithms;
 import java.util.Arrays;
 
 // Divide and conquer, break problem into smaller ones to solve it
-// Split array into individual arrays
+// Split array into individual arrays and merge them together
+
+// Merge two sorted arrays together
 
 public class MergeSort {
 	
@@ -24,7 +26,7 @@ public class MergeSort {
 		return merge(arrayOne, arrayTwo);
 	}
 	
-	// Merge function that combines two arrays
+	// Merge function that combines two arrays that are sorted.
 	
 	public int[] merge(int[] a, int[] b) {
 		

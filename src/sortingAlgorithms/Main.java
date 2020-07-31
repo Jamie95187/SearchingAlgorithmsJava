@@ -84,6 +84,21 @@ class Main {
 		for (int i = 0; i < arr5.length; i++) {
 			System.out.print(arr5[i] + ", ");
 		}
+		
+		System.out.println("\n \n");
+		
+		// Testing quick sort
+		
+		int arr6[] = createArray(50);
+		QuickSort qs = new QuickSort();
+		for (int i = 0; i < arr6.length; i++) {
+			System.out.print(arr6[i] + ", ");
+		}
+		qs.sort(arr6, 0, arr6.length-1);
+		System.out.println("\n");
+		for (int i = 0; i < arr6.length; i++) {
+			System.out.print(arr6[i] + ", ");
+		}
 	}
 	
 }
