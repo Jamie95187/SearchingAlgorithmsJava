@@ -114,6 +114,21 @@ class Main {
 		for (int i = 0; i < arr7.length; i++) {
 			System.out.print(arr7[i] + ", ");
 		}
+		
+		System.out.println("\n \n");
+		
+		// Testing count sort
+		
+		int arr8[] = {10, 15, 20, 40, 50, 25};
+		CountingSort cs = new CountingSort();
+		for (int i = 0; i < arr8.length; i++) {
+			System.out.print(arr8[i] + ", ");
+		}
+		cs.sort(arr8);
+		System.out.println("\n");
+		for (int i = 0; i < arr8.length; i++) {
+			System.out.print(arr8[i] + ", ");
+		}
 	}
 	
 }
